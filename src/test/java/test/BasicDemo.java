@@ -29,6 +29,7 @@ public class BasicDemo {
 	@Test
 	public void pageTitleValidation() {
 		//Assignment I from Harry
+		//2nd try, from Harry
 		String expectedResult = "Facebook – Anmelden oder Registrieren";
 		String actualResult = driver.getTitle();
 		
