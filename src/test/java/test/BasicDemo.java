@@ -40,7 +40,7 @@ public class BasicDemo {
 	
 	@Test
 	public void welcomeMessageValidation() {
-		//from Harry
+		//from Harry and from Kane
 		String expectedResult = "Auf Facebook bleibst du mit Menschen in Verbindung und teilst Fotos, Videos und vieles mehr mit ihnen.";
 		String actualResult = driver.findElement(By.xpath("//h2[@class='_8eso']")).getText();
 		
