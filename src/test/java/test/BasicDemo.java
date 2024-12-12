@@ -28,10 +28,6 @@ public class BasicDemo {
 	
 	@Test
 	public void pageTitleValidation() {
-		//Assignment I from Harry
-		//2nd try, from Harry
-		//from Kane, here should be Deutsch
-		//from Harry, here should be English
 		String expectedResult = "Facebook – Anmelden oder Registrieren";
 		String actualResult = driver.getTitle();
 		
@@ -43,8 +39,6 @@ public class BasicDemo {
 	
 	@Test
 	public void welcomeMessageValidation() {
-		//Assignment I from Kane
-		//2nd try, from Kane
 		String expectedResult = "Auf Facebook bleibst du mit Menschen in Verbindung und teilst Fotos, Videos und vieles mehr mit ihnen.";
 		String actualResult = driver.findElement(By.xpath("//h2[@class='_8eso']")).getText();
 		
