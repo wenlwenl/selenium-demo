@@ -11,7 +11,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class BasicDemo {
-	//from Harry
+	//from Harry && from Kane, stash test
 	public static WebDriver driver;
 
 	@BeforeTest
